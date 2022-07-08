@@ -6,7 +6,7 @@ import { auth } from '../../firebase/firebase.utils';
 import { ReactComponent as Logo } from '../../assets/crown.svg'
 
 import './header.styles.scss'
-
+ 
 function Header({ currentUser }) {
   return (
     <div className='header'>
