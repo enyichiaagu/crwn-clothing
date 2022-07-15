@@ -25,10 +25,10 @@ class SignIn extends Component {
 
     try {
       signIn(email, password);
-      this.state = {
+      this.setState({
         email: '',
         password: ''
-      }
+      });
     } catch (error) {
       console.log(error);
     }
